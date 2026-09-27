@@ -1,0 +1,15 @@
+# 说明：本仓库故意把编译产物（PdbParser.exe / PdbParser.obj）和随附的三个 DLL
+# 一并入库，做到 clone 下来即可直接运行。若要改成只保留源码，取消下面几行注释即可。
+#
+# *.exe
+# *.obj
+# dbghelp.dll
+# symsrv.dll
+# msdia140.dll
+
+# 编辑器 / Visual Studio 临时文件
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
